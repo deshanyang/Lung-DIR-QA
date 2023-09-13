@@ -24,7 +24,9 @@ If the user desires, they can include a number of other arguments in their initi
 
 If the images and landmarks were loaded properly, you should see an interface like such
 
-![image](https://github.com/deshanyang/Lung-DIR-QA/assets/50779449/a8a25196-c676-4c05-8595-c2f8c42cc3c5)
+![image](https://github.com/deshanyang/Lung-DIR-QA/assets/50779449/4b20f7e2-ea91-4084-ac7c-f979179fc69b)
+
+
 
 **NOTE**: Due to the way images are loaded into MatchGui, they must be the same size, otherwise they will not properly display. To account for this, images with different dimensions that are loaded into MatchGui are resized automatically by adding the respective number of slices to each dimension needed. These slices are simply repeats of the maximum value of the image, so won't show up unless the window level is significantly altered. This should not affect the presentation of the landmarks, but is worth noting. This is a feature that may be updated in future versions. 
 
@@ -35,14 +37,17 @@ In this display, you should see each landmark pair both on CT1 and CT2. The orde
 
 The user can toggle which landmark they are looking at by using the slider at the top right, or by left clicking on one of the display windows and hitting the right and left arrow keys. The order of the landmarks is randomized, so there is no physical association with a landmark occurring earlier or later. Play around with the zoom factor and landmark sliders to visualize some of the landmark pairs in the dataset. One can also try adjusting the window level settings by using the text box inputs or by right clicking on any of the images and selecting "Window Levels"-> and desired organ.
 
-<img src="https://github.com/deshanyang/Lung-DIR-QA/assets/50779449/3ce6d100-f93b-4874-9ec6-ae0bbad8c187" width="400"> <img src="https://github.com/deshanyang/Lung-DIR-QA/assets/50779449/8d763bfd-47b3-45a8-a326-80d9a69fc1b6" width="400"> 
+
+
+<img src="https://github.com/deshanyang/Lung-DIR-QA/assets/50779449/a268ea2c-c353-4d00-8894-26582c411222" width="400"> <img src="ttps://github.com/deshanyang/Lung-DIR-QA/assets/50779449/50e52312-f802-4093-8902-589ead58e772" width="400"> 
 
 **LEFT: A landmark in this case with good window level settings and upsampling. RIGHT: The same landmark without upsampling and different window level settings.**
 
 Some of the landmarks may not appear to occur on bifurcations at first glance. To get a better picture of what vessel anatomy looks like at a particular point, we recommend looking at the slices around a particular point. To do this, keep the landmark slider at the same landmark, and hover the mouse over the desired view window. The user can then change the slice by using the scroll wheel on their mouse. An alternative is to left click on the desired window and use the up and down arrow keys to toggle the slice. Doing this should provide more context for where the bifurcation is occurring.
 
 The user can also toggle the "Vector" checkbox to visualize where the each landmark in a pair occurs relative to the other image. This can give the user some perspective on the amount of deformation at each landmark. The position of and distance between the two landmarks is also displayed in the upper right as "Distance".
-![image](https://github.com/deshanyang/Lung-DIR-QA/assets/50779449/2d24266e-6603-45f0-b253-d8f7b7ad36cb)
+![image](https://github.com/deshanyang/Lung-DIR-QA/assets/50779449/7567d545-08c4-447e-b5e0-4374d38973fa)
+
 
 **What the vectors look like for the landmarks showing displacement. The vector in red is the currently selected landmark, while those in green are other landmarks happening to occur on the same slice (these can be toggled through the use of the "Other Features" checkbox). The endpoint of the arrow is where the landmark occurs in the other image.**
 
