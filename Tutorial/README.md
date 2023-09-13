@@ -39,7 +39,7 @@ The user can toggle which landmark they are looking at by using the slider at th
 
 
 
-<img src="https://github.com/deshanyang/Lung-DIR-QA/assets/50779449/a268ea2c-c353-4d00-8894-26582c411222" width="400"> <img src="ttps://github.com/deshanyang/Lung-DIR-QA/assets/50779449/50e52312-f802-4093-8902-589ead58e772" width="400"> 
+<img src="https://github.com/deshanyang/Lung-DIR-QA/assets/50779449/a268ea2c-c353-4d00-8894-26582c411222" width="400"> <img src="https://github.com/deshanyang/Lung-DIR-QA/assets/50779449/50e52312-f802-4093-8902-589ead58e772" width="400"> 
 
 **LEFT: A landmark in this case with good window level settings and upsampling. RIGHT: The same landmark without upsampling and different window level settings.**
 
