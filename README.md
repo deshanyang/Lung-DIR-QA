@@ -37,7 +37,7 @@ A screenshot from the MatchGUI interface showing a landmark pair from the datase
 For more extensive instructions on how to use matchgui, please refer to the tutorial folder in our Github.
 
 ### Citing
-The results of this study are publicly available for use in DIR algorithm verification. If you used our work in any way, please cite our paper at .
+The results of this study are publicly available for use in DIR algorithm verification. If you used our work in any way, please cite our paper at https://doi.org/10.1002/mp.17026.
 
 If you have any further questions about the dataset, please reach out to us at teddy.criscuolo@duke.edu. Thank you!
 
